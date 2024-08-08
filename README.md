@@ -149,7 +149,7 @@ kubectl logs -l app=weather-api
 Create **DOCKER_SECRET_STRING** secret using this command and place it inside [charts/weather-chart/templates/secret.yaml](charts/weather-chart/templates/secret.yaml)
 ``` bash
 #DOCKER_SECRET_STRING
-echo -n '{"auths":{"https://index.docker.io/v1/":{"username":"<DOCKER_HUB_USERNAME>","password":"<DOCKER_HUB_PASSWORD>","email":"<DOCKER_HUB_EMAIL>","auth":"<AUTHTOKEN>"}}}' | base64
+echo -n '{"auths":{"https://index.docker.io/v1/":{"username":"rajeevranjan31","password":"","email":"rajeevferryranjan@gmail.com","auth":""}}}' | base64
 ```
 ```yaml
 #secret.yaml
